@@ -1,7 +1,22 @@
 body {
+    background-color: #0A192F;
     margin: 0;
-    font-family: Arial, sans-serif;
 }
+
+h1 {
+    color: #e6f1ff;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+p {
+    color: #8892B0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
 
 .navbar {
     position: fixed;
@@ -11,7 +26,7 @@ body {
     left: 0;
     width: 100%;
     /* koko sivun leveys */
-    background-color: #333;
+    background-color: #071421;
     padding: 10px 0;
     z-index: 1000;
     /* varmistaa että palkki on kaiken päällä */
@@ -28,7 +43,8 @@ body {
 }
 
 .navbar a {
-    color: white;
+    color: #e6f1ff;
+    font-family: "Montserrat", sans-serif;
     text-decoration: none;
     font-size: 18px;
 }
