@@ -61,4 +61,18 @@ p {
 /* Jotta sisältö ei mene navin alle */
 .content {
     padding-top: 80px;
+    text-align: center;
+
+}
+
+.Skills {
+    text-align: center;
+}
+
+.Projects {
+    text-align: center;
+}
+
+.Contact {
+    text-align: center;
 }
