@@ -10,6 +10,20 @@ h1 {
     font-optical-sizing: auto;
 }
 
+h2 {
+    color: #e6f1ff;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+h3 {
+    color: #8892B0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
 p {
     color: #8892B0;
     font-family: "Inter", sans-serif;
