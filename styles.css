@@ -52,6 +52,7 @@
      /* horisontaalinen asettelu */
      justify-content: center;
      gap: 30px;
+     align-items: center;
  }
 
  .navbar a {
@@ -63,6 +64,35 @@
 
  .navbar a:hover {
      text-decoration: underline;
+ }
+
+ .lang-divider {
+     width: 1px;
+     height: 20px;
+     background: rgba(230, 241, 255, 0.25);
+     margin: 0 4px;
+ }
+
+ .lang-flags {
+     display: flex;
+     align-items: center;
+     gap: 8px;
+ }
+
+ .lang-flags a {
+     font-size: 22px;
+     text-decoration: none;
+     opacity: 0.75;
+     transition: opacity 0.15s, transform 0.15s;
+ }
+
+ .lang-flags a:hover {
+     opacity: 1;
+     transform: scale(1.2);
+ }
+
+ .lang-flags a.active {
+     opacity: 1;
  }
 
  .page-title {
